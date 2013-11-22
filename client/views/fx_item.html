@@ -6,7 +6,11 @@
                 <span>{{rate}}</span>
                 <span>&nbsp;</span>
                 <span>{{target}}</span>
-                <span><img src="http://flagpedia.net/data/flags/normal/{{country}}.png" width="50px"></span>
+                <span>
+                    {{#if country}}
+                        <img src="http://flagpedia.net/data/flags/normal/{{country}}.png" width="50px">
+                    {{/if}}
+                </span>
                 </h3>
         </div>
     </div>

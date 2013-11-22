@@ -5,7 +5,7 @@
  * Time: 1:20 AM
  * To change this template use File | Settings | File Templates.
  */
-/*
+
 if (ForeignX.find().count() === 0) {
 
     ForeignX.insert({
@@ -13,6 +13,7 @@ if (ForeignX.find().count() === 0) {
         "currency":"EUR",
         "target":"USD",
         "country":"us",
+        "continent":"America",
         "rate":1.35});
 
     ForeignX.insert({
@@ -20,6 +21,7 @@ if (ForeignX.find().count() === 0) {
         "currency":"EUR",
         "target":"CHF",
         "country":"ch",
+        "continent":"Europe",
         "rate":1.33});
 
     ForeignX.insert({
@@ -27,6 +29,7 @@ if (ForeignX.find().count() === 0) {
         "currency":"EUR",
         "target":"CAN",
         "country":"ca",
+        "continent":"America",
         "rate":1.42});
 
     ForeignX.insert({
@@ -34,6 +37,6 @@ if (ForeignX.find().count() === 0) {
         "currency":"EUR",
         "target":"YEN",
         "country":"jp",
+        "continent":"Asia",
         "rate":136.08});
 }
-*/
