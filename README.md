@@ -1,2 +1,2 @@
-First step into the Meteor Workshop
+Step 2 into the Meteor Workshop
 
