@@ -1,4 +1,4 @@
-/*
+
 var fxData = [
     {
         "location": "Paris",
@@ -27,7 +27,7 @@ var fxData = [
     }
 ];
 
-*/
+
 Template.fxList.helpers({
     fx: null
 });
